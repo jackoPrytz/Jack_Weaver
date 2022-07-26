@@ -1,0 +1,53 @@
+body{
+    background-color:#deb887;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+header{
+    color: #00008b;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 20px 70px;
+    
+
+    
+}
+h1{
+    font-size: 48px;
+    text-transform:uppercase;
+    }
+header ul{
+    display: flex;
+    text-decoration: none;
+}
+header li{
+    margin-right: 30px;
+    list-style-type:none;
+    text-transform: uppercase;
+}
+header li a{
+    text-decoration: none;
+}
+main{
+    margin: 30px 100px;
+    
+}
+.banner{
+    margin: 80px 0px;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    color: darkblue;
+    font-size: 36px;
+}
+
+#whosJack{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+

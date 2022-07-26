@@ -5,30 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./resources/styles.css">
+    <script src="./resources/script.js"></script>
+
 </head>
 <body>
  <header>
         <h1>Jack Weaver</h1>
         <nav>
             <ul>
-               <li>Who am I</li>
-               <li>Skills</li>
-               <li>I've done</li>
-               <li>Contact me</li> 
+               <li><a href="#whosJack">Who am I</a></li>
+               <li><a href="#skills"></a>My Skills</li>
+               <li><a href="#done"></a>What I've done</li>
+               <li><a href="#contact"></a>Contact me</li> 
             </ul>
         </nav>
     </header> 
     <main>
         <div class="banner">
-            <img src="" alt="" srcset="">
+            <img src="./resources/images/Banner_white.png" alt="Banner white" width="100%">
         </div>
-        <div class="whosJack">
-            <h2>Who am I</h2>
+        <h2>Who am I</h2>
+        <div id="whosJack">
             <p><strong>Who the fuck am I??</strong>
             I'm a 32 year old overweight, unemployed jack of no trades.</p>
+            <img src="./resources/images/profile photo.jpg" alt="Jack Weaver" height="500px">
         </div>
-        <div class="skills">
-            <h2>Skills</h2>
+        <div id="skills">
+            <h2>My Skills</h2>
             <ul>
                 <li>Average at best</li>
                 <li>Excellent at procrastenating</li>
@@ -37,7 +42,7 @@
                 <li>Social awkward</li>
             </ul>
         </div>
-        <div class="done">
+        <div id="done">
             <h2>Things I haven't done</h2>
             <ul>
                 <li>Had a proper job</li>
@@ -46,11 +51,16 @@
                 <li>Paid my credit card!</li>
             </ul>
         </div>
-        <div class="contact">
+        <div id="contact">
             <h2>Contact Me</h2>
                 <p><strong>Please don't contact me!!</strong><br>
                 I will not answer you and its more than likely i've given you fake contact information!
                 </p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jack-weaver-2798061aa/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jackoPrytz" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="mailto: weaverjackop@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                </ul>
         </div>
     </main>   
 </body>
