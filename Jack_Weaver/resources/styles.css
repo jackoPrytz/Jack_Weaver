@@ -1,12 +1,16 @@
 body{
     background-color:#deb887;
-    color:white;
+    color:darkslategray;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+li{
+    list-style-type: none;
 }
 header{
-    color: #00008b;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -30,24 +34,43 @@ header li{
 }
 header li a{
     text-decoration: none;
+    font-size: 20px;
+    color:darkslategray;
 }
 main{
-    margin: 30px 100px;
+    margin: 30px 70px;
     
 }
 .banner{
     margin: 80px 0px;
 }
 h2{
-    text-align: center;
+    text-align: left;
     margin-top: 60px;
-    color: darkblue;
+    color: white;
+    font-weight: 600;
     font-size: 36px;
 }
 
-#whosJack{
-    margin-top: 60px;
+.whoIsJack{
+    
     display: flex;
     justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+#contact ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+#contact ul li{
+    list-style-type: none;
+}
+#contact ul li a{
+    color: #00008b;
+    font-size: 48px;
+
 }
 
