@@ -38,7 +38,7 @@ header li a{
     color:darkslategray;
 }
 main{
-    margin: 30px 70px;
+    margin: 0px 70px;
     
 }
 .banner{
@@ -59,6 +59,121 @@ h2{
     gap: 100px;
     align-items: center;
 }
+
+#skills{
+    display: flex;
+    flex-direction:column ;
+    margin: 80px 0px;
+}
+#twoSkills{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+.skillOne, .skillTwo{
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+#fourSkills{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.skillThree, .skillFour{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.score{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+.right, .left{
+    margin: 0;
+    align-self: flex-end;
+    font-size: 18px;
+
+}
+.right{
+    padding-right: 50px;
+}
+
+#bar ul{
+    display:flex;
+    align-items: flex-start;
+    margin: 0;
+    
+    
+}
+#bar li{
+    height: 20px;
+    width: 7%;
+    justify-content: center;
+    align-content: center;
+    
+}
+.barOne{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color:white;
+    border: 3px darkslategray solid;
+}
+.barTwo{
+    background-color: rgb(224, 238, 253);
+    border: 3px darkslategray solid;
+}
+.barThree{
+    background-color: rgb(150, 217, 243);
+    border: 3px darkslategray solid;
+}
+.barFour{
+    background-color: rgb(65, 204, 250);
+    border: 3px darkslategray solid;
+}
+.barFive{
+    background-color: rgb(1, 156, 207);
+    border: 3px darkslategray solid;
+}
+.barSix{
+    background-color: rgb(2, 62, 228);
+    border: 3px darkslategray solid;
+}
+.barSeven{
+    background-color: blue;
+    border: 3px darkslategray solid;
+}
+.barEight{
+    background-color: rgb(2, 2, 214);
+    border: 3px darkslategray solid;
+}
+.barNine{
+    background-color: rgb(2, 2, 177);
+    border: 3px darkslategray solid;
+    
+}
+.barTen{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: darkblue;
+    border: 5px gold solid;
+}
+.newBarTen{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: darkblue;
+    border: 3px darkslategray solid;
+}
+.newBarNine{
+    background-color: darkblue;
+    border: 5px gold solid;
+}
+
+
 
 #contact ul{
     display: flex;
