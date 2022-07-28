@@ -222,4 +222,7 @@ h2{
     font-size: 48px;
 
 }
+#helpButton{
+    display: none;
+}
 
